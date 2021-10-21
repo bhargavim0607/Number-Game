@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon" href="https://images.all-free-download.com/images/graphiclarge/number_sorting_game_clip_art_24121.jpg" type="image/gif" sizes="16x16">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>NUMBER GAME</title>
+</head>
+<body onload="fill()">
+    <div class="container-fluid  ">
+        
+        <div class="col-md-4 rule ">
+            <img style="height: 72px;" src="https://images.all-free-download.com/images/graphiclarge/number_sorting_game_clip_art_24121.jpg">
+            <h3 class="play">HOW TO PLAY</h3>
+            <p>This game consists of 25 tiles.<br> We need to fill all 25 Tiles from 1 to 25 numbers by following below rules:</p>
+            <ol type="numbers">
+                <li>Place the First Number on any one of the tile.</li>
+                <li>After the first number some of the tiles gets blue color indicating that you can place next number only in those tiles.</li>
+                <li>You will not be able to place the number in tile which is not indicated.</li>
+                <li>The tiles are indicating in blue color according to following:</li>
+                <ul>
+                    <li>If you wanted to move in vertical or horizantal then you need to leave 2 tiles in middle of start and end tile</li>
+                    <li>Similarly to move diagonal leave one tile</li>
+                </ul>
+                <li>By following all these rules if you can fill all tiles with all 25 numbers then you will be the winner.🏆 </li>
+                <li>If you are unable to have further moves then the game ends and you loose😢</li>
+            </ol>
+        </div>
+        <div class="col col-md-8">
+            <h1>NUMBER GAME</h1>
+            <div class="row">
+                <button id="11" onclick="clicka(this,11)"></button>
+                <button  id="12" onclick="clicka(this,12)"></button>
+                <button  id="13" onclick="clicka(this,13)"></button>
+                <button  id="14" onclick="clicka(this,14)"></button>
+                <button  id="15" onclick="clicka(this,15)"></button>
+            </div>
+            <div class="row">
+                <button  id="21" onclick="clicka(this,21)"></button>
+                <button  id="22" onclick="clicka(this,22)"></button>
+                <button  id="23" onclick="clicka(this,23)"></button>
+                <button  id="24" onclick="clicka(this,24)"></button>
+                <button  id="25" onclick="clicka(this,25)"></button>
+            </div>
+            <div class="row">
+                <button  id="31" onclick="clicka(this,31)"></button>
+                <button  id="32" onclick="clicka(this,32)"></button>
+                <button  id="33" onclick="clicka(this,33)"></button>
+                <button  id="34" onclick="clicka(this,34)"></button>
+                <button  id="35" onclick="clicka(this,35)"></button>
+            </div>
+            <div class="row">
+                <button  id="41" onclick="clicka(this,41)"> </button>
+                <button  id="42" onclick="clicka(this,42)"> </button>
+                <button  id="43" onclick="clicka(this,43)"> </button>
+                <button  id="44" onclick="clicka(this,44)"> </button>
+                <button  id="45" onclick="clicka(this,45)"> </button>
+            </div>
+            <div class="row">
+                <button  id="51" onclick="clicka(this,51)"></button>
+                <button  id="52" onclick="clicka(this,52)"></button>
+                <button  id="53" onclick="clicka(this,53)"></button>
+                <button  id="54" onclick="clicka(this,54)"></button>
+                <button  id="55" onclick="clicka(this,55)"></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

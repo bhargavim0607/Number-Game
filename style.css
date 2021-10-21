@@ -1,0 +1,44 @@
+*{
+    align-items: center;
+}
+.container-fluid{
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    padding-top: 1%;
+    height: 100%;
+    padding-bottom: 5%;
+    color: darkmagenta;
+    
+
+}
+button{
+    margin: auto;
+    width: 7vw;
+    height: 7vw;
+    font-size: 3vw;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.rule{
+    text-align: center;
+    height: 100%;
+    background-color: darkblue; 
+    
+}
+.rule p{
+    color: pink;
+    font-size: larger;
+}
+.rule h3{
+    color: crimson;
+    font-weight: bold;
+}
+.rule li{
+    color: rgb(190, 54, 54);
+    font-size: large;
+    font-family: italic;
+}
+.col{
+    background-color: cornflowerblue;
+}
