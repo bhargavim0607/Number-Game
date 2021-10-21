@@ -56,8 +56,11 @@ function clicka(d,n){
             for(var i=0;i<ac.length;i++){
                 document.getElementById(ac[i]).style.backgroundColor="antiquewhite";
             }
-            alert("Game Ended,As no more tiles can be filled");
+            alert("Game Ended,As no more tiles can be filled")
+            window.location.reload(true);
             fill();
+            po=[11,12,13,14,15,21,22,23,24,25,31,32,33,34,35,41,42,43,44,45,51,52,53,54,55];
+            
         }
         if(count==25){
             alert("You Have Won The Game!!!!")
